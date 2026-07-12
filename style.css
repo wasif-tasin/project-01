@@ -1,0 +1,67 @@
+/* Common use */
+* {
+    padding: 0;
+    margin: auto;
+    font-family: "Open Sans", sans-serif;
+}
+
+.common-btn {
+    padding: 10px 20px;
+    background-color: #1d4ed8FF;
+    color: white;
+    font-weight: 700;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.container {
+    max-width: 1551px;
+    margin: auto;
+}
+
+/* Nav section start */
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    color: #575757FF;
+    padding: 15px 0;
+}
+
+.nav-items ul,
+a {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.nav-items a {
+    color: #575757FF;
+}
+
+.nav-items img {
+    width: 150px;
+}
+
+/* Nav section end */
+/* Hero section start */
+.hero-root {
+    background-image: url(./assets/banner.jpg);
+    background-color: rgba(0, 0, 0, .5);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1551px;
+    height: 786px;
+    margin: 25px 0; 
+}
+.hero-root h1,p{
+    text-align: center;
+    color: white;
+}
+ .btn-2{
+   text-align: center;
+}
