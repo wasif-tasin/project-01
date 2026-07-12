@@ -15,8 +15,8 @@
     border: none;
 }
 
-.container {
-    max-width: 1551px;
+.container{
+    max-width: 1600px;
     margin: auto;
 }
 
@@ -25,7 +25,7 @@
     display: flex;
     justify-content: space-between;
     color: #575757FF;
-    padding-top: 15px ;
+    padding-top: 15px;
 }
 
 .nav-items ul,
@@ -48,33 +48,74 @@ a {
 }
 
 /* Nav section end */
-/* Hero section start */
+/* Banner section start */
 .hero-root {
     /* background-image: url(./assets/banner.jpg); */
-    background: linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0.1)), url("./assets/banner.jpg");
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url("./assets/banner.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 1551px;
-    height: 786px;
-    margin: 25px 0; 
+    background-size: 1910px;
+    height: 886px;
+    margin: 25px 0;
 }
-.hero-root h1{
+
+.hero-root h1 {
     text-align: center;
     color: white;
     padding-top: 100px;
     font-size: 80px;
 }
-.hero-root p{
+
+.hero-root p {
     color: white;
     text-align: center;
     font-size: 22px;
     width: 800px;
     padding-top: 20px;
-    
+
 }
 
- .btn-2{
-   text-align: center;
-   margin-top: 350px;
-   
+.btn-2 {
+    text-align: center;
+    margin-top: 350px;
+
+}
+
+/* Banner section end */
+/* Picture section start */
+.meet-section{
+    text-align: center;
+    margin: 100px;
+    font-size: 30px;
+}
+.picture-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.box-section{
+    border: 2px solid #e5e6ea;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    
+}
+.box-section img{
+    width: auto;
+    height: 400px;
+    object-fit: cover;
+}
+.box-section div{
+    padding: 40px 20px;
+}
+.skills{
+    font-size: 12px;
+    color:#2563ebFF;;
+}
+.picture-section h4{
+    font-size: 20px;
+    color:#0d1b2aFF;
+    padding: 10px 0;
+}
+.experience{
+    color:#575757FF;;
 }
