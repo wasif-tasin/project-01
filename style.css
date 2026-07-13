@@ -389,9 +389,12 @@ footer {
 
 .icons {
     display: flex;
+    padding-bottom: 4px;
 }
 
 .icons a {
+    display: flex;
+    justify-content: space-between;
     height: 35px;
 }
 
