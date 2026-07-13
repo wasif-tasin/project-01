@@ -287,7 +287,7 @@ a {
 ========================== */
 .hackathon {
     max-width: 1910px;
-    max-height: 700px;
+    max-height: auto;
 }
 
 .hackathon-cards {
@@ -375,8 +375,39 @@ a {
     cursor: pointer;
 }
 footer{
-    background-color: blue;
-    padding: 50px 0;
+    background-color:black;
+    padding: 10px 0 20px;
     max-width: 1910px;
     margin-bottom: 100px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+.icons img{
+    height: 35px;
+}
+.images-png img{
+   width: 40px;
+   height: 30px;
+}
+.divider{
+    width: 60%;
+    height: 1px;
+    background-color: #555;
+    
+}
+.copyright p{
+    color:#888888FF;
+    text-align: center;
+    font-size: 13px;
+}
+.policy{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.copyright a{
+    color:#888888FF;
+    font-size: 13px;
 }
